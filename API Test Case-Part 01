@@ -1,0 +1,102 @@
+=> Common API Test Cases:
+-------------------------
+
+1. Verify that the API response status code is 200 OK.
+
+2. Verify that the API response is in the expected format (e.g. JSON, XML).
+
+3. Verify that the API response contains all the expected fields.
+
+4. Verify that the API response contains the correct data for each field.
+
+5. Verify that the API response time is within acceptable limits.
+
+6. Verify that the API request parameters are correctly passed to the API.
+
+7. Verify that the API request method is correct (e.g. GET, POST, PUT, DELETE).
+
+8. Verify that the API endpoint URL is correct.
+
+9. Verify that the API response headers are correct.
+
+10. Verify that the API response payload size is within acceptable limits.
+
+11. Verify that the API returns an error message if the request is malformed.
+
+12. Verify that the API returns an error message if the authentication fails.
+
+13. Verify that the API returns an error message if the request payload is missing.
+
+14. Verify that the API returns an error message if the requested resource does not exist.
+
+15. Verify that the API returns an error message if the requested resource is not authorized.
+
+16. Verify that the API returns an error message if the request payload exceeds the allowed limit.
+
+17. Verify that the API returns an error message if the request payload contains invalid data.
+
+18. Verify that the API returns an error message if the request method is not allowed for the resource.
+
+19. Verify that the API returns a success message if the resource is created successfully.
+
+20. Verify that the API returns a success message if the resource is updated successfully.
+
+21. Verify that the API returns a success message if the resource is deleted successfully.
+
+22. Verify that the API returns a success message if the resource is retrieved successfully.
+
+23. Verify that the API returns the correct resource based on the provided resource identifier.
+
+24. Verify that the API returns the correct resource based on the provided search parameters.
+
+25. Verify that the API response contains the correct pagination information.
+
+26. Verify that the API response contains the correct sorting order based on the provided sort parameter.
+
+27. Verify that the API response contains the correct filtering information based on the provided filter parameters.
+
+28. Verify that the API returns the correct results when searching for a partial string.
+
+29. Verify that the API returns the correct results when searching for a case-insensitive string.
+
+30. Verify that the API returns the correct results when searching for a string with special characters.
+
+31. Verify that the API returns the correct results when searching for a string with multiple words.
+
+32. Verify that the API returns the correct results when searching for a string with a combination of letters and numbers.
+
+33. Verify that the API returns the correct results when searching for a string with spaces.
+
+34. Verify that the API returns the correct results when searching for a string with non-ASCII characters.
+
+35. Verify that the API returns the correct results when searching for a string with mixed character types (e.g. letters, numbers, symbols).
+
+36. Verify that the API returns the correct results when searching for a string with HTML tags.
+
+37. Verify that the API returns the correct results when searching for a string with escape characters.
+
+38. Verify that the API response contains the correct resource representation based on the provided content type.
+
+39. Verify that the API response is compressed when the client sends a request with the "Accept-Encoding" header set to "gzip".
+
+40. Verify that the API response is not compressed when the client does not send the "Accept-Encoding" header.
+
+41. Verify that the API response is not compressed when the client sends a request with the "Accept-Encoding" header set to a value other than "gzip".
+
+42. Verify that the API response contains the correct resource representation based on the specified language (e.g. English, Spanish, French).
+
+43. Verify that the API response contains the correct resource representation based on the specified locale (e.g. en-US, fr-FR).
+
+44. Verify that the API response contains the correct resource representation based on the specified time zone.
+
+45. Verify that the API response contains the correct resource representation when the resource contains nested objects or arrays.
+
+46. Verify that the API returns a response within a specified timeout period.
+
+47. Verify that the API handles concurrent requests correctly.
+
+48. Verify that the API handles partial updates correctly (e.g. PATCH requests).
+
+49. Verify that the API returns a response with a custom HTTP header when a specific request header is sent.
+
+50. Verify that the API correctly handles file uploads and downloads.
